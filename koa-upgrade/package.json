@@ -1,0 +1,27 @@
+{
+  "name": "koa-upgrade",
+  "author": "",
+  "description": "koa-up",
+  "dependencies": {
+    "http-status-codes": "^1.0.6",
+    "ws": "^1.1.1"
+  },
+  "devDependencies": {
+    "koa": "^2.0.0-alpha.6"
+  },
+  "directories": {},
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "John Henry",
+      "email": "johnhenry@gmail.com"
+    }
+  ],
+  "optionalDependencies": {},
+  "scripts": {
+    "example-server": "node ./example/entrypoint.js",
+    "example-client" : "http-server ./example"
+  },
+  "version": "1.0.0"
+}

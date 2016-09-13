@@ -1,0 +1,35 @@
+{
+  "name": "flyweb-koa",
+  "version": "0.0.0",
+  "description": "This is an experimental library that modifies [Koa 2](https://github.com/koajs/koa/tree/v2.x) and [Koa 2 Browser](https://github.com/johnhenry/koa-2-browser) to work a bit like [FlyWeb Servers](https://flyweb.github.io/), currently in development at Mozilla. This allows for changes in control flow that I like, but you may not... so try it out! :). Because it depends on Ko",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup ./lib/index.js --output ./dist/index.js --format cjs"
+  },
+  "repository":"https://github.com/johnhenry/flyweb-koa",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.14.0",
+    "http-status-codes": "^1.0.6",
+    "ws": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-plugin-minify-constant-folding": "0.0.1",
+    "babel-plugin-minify-mangle-names": "0.0.2",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-babili": "0.0.2",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-es2016": "^6.11.3",
+    "babel-preset-es2017": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-preset-stage-3": "^6.11.0",
+    "babel-register": "^6.14.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "rollup": "^0.35.10"
+  }
+}
